@@ -18,7 +18,7 @@
 nav{
 	box-shadow: 0px 10px 5px #888888;
 	margin-bottom: 20px;
-	border-bottom: solid black 2px;
+	border-bottom: solid rgba(16, 198, 51, 0.5) 4px;
 	border-radius: 5px;
 	clear: both;
 	height: 130px;
@@ -40,7 +40,7 @@ nav ul{
 }
 
 nav li{
-	width: 13%;
+	width: 16%;
 	display: inline-block;
 	text-align: center;
 	font-family: 'Oswald', sans-serif; font-weight: 400;
@@ -60,6 +60,13 @@ nav a:visited{
 nav a:hover{
 	text-decoration: underline;
 	color: black;
+}
+
+nav a li:hover{
+	text-decoration: underline;
+	color: rgba(55, 16, 122, 0.7);
+	-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */
+    text-decoration-color: rgba(55, 16, 122, 0.7);
 }
 
 nav li span{
