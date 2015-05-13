@@ -8,7 +8,7 @@
 }
 
 .wrapper{
-	width: 1050px;
+	max-width: 1050px;
 	margin: auto;
 	padding: 15px;
 	background-color: rgb(250, 250, 250);
@@ -21,12 +21,13 @@ nav{
 	border-bottom: solid rgba(16, 198, 51, 0.5) 4px;
 	border-radius: 5px;
 	clear: both;
+	width: 100%;
 	height: 130px;
 }
 
 nav img{
+	width: 10%;
 	height: 120px;
-	width: 100px;
 	float: left;
 	display: inline-block;
 }
@@ -75,19 +76,18 @@ nav li span{
 
 #intro img{
 	float: left;
-	width: 200px;
-	height: 296px;
+	width: 20%;
 }
 
 #intro{
 	background-color: rgba(55, 16, 122, 0.5);
-	height: 365px;
+	width: 100%;
 	border-radius: 25px;
 }
 
 article h1{
 	font-family: 'Titillium Web', sans-serif; font-weight: 700;
-	font-size: 42px;
+	font-size: 3em;
 	margin-bottom: 10px;
 }
 
@@ -95,12 +95,17 @@ article h1{
 	font-family: 'Titillium Web', sans-serif; font-weight: 400;
 	margin-right: 10px;
 	margin-left: 10px;
-	font-size: 16px;
+	font-size: 1em;
 	letter-spacing: 0.3px;
+}
+
+#icon-bar{
+	width: 100%;
 }
 
 #icon-bar div{
 	display: inline-block;
+	width: 24%;
 }
 
 .hp-icons img{
@@ -109,10 +114,14 @@ article h1{
 	margin: 20px 75px 0px 75px;
 }
 
+article .content{
+	width: 100%;
+}
+
 article h2{
 	font-family: 'Titillium Web', sans-serif; font-weight: 700;
-	font-size: bold;
-	font-size: 36px;
+	font-size: 2em;
+	width: 100%;
 	margin-bottom: 10px;
 	text-align: center;
 }
@@ -131,12 +140,16 @@ ul.favorited{
 }
 
 .column1{
-	margin-left: 90px;
+	margin-left: 7%;
 }
+
+/*.column2{
+	margin-right: 10%;
+}*/
 
 .favorited li{
 	font-family: 'Titillium Web', sans-serif; font-weight: 400;
-	font-size: 16px;
+	font-size: 1em;
 	letter-spacing: 0.3px;
 	padding-bottom: 5px;
 }
@@ -168,6 +181,7 @@ ul.favorited{
 .sports-logo{
 	display: inline;
 	position: relative;
+	width: 25%;
 }
 
 #mizzou-logo{
@@ -199,5 +213,67 @@ html{
 #map-canvas{
 	width: 945px;
 	height: 500px;
-	margin-left: 50px;
+	margin-left: 4%;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1030px){
+	#icon-bar .map{
+		display: none;
+	}
+
+	#map{
+		display: none;
+	}
+
+	#icon-bar div{
+		width: 33%;
+	}
+
+	#sport div{
+		position: static;
+		width: 45%;
+		margin-left: 10%;
+	}
+
+@media screen and (max-width: 940px){
+	#favorite{
+		display: inline-block;
+	}
+
+	#sport{
+		display: inline-block;
+	}
+
+	#music{
+		display: inline-block;
+	}
+
+	#icon-bar{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 830px){
+	nav #other{
+		display: none;
+	}
+
+	nav ul{
+		height: 100%;
+	}
+
+	nav li{
+		width: 25%;
+	}
+
+	nav .row1{
+		padding-bottom: 15px;
+		border-bottom: 2px solid rgba(16, 198, 51, 0.5);
+	}
+
+	nav .row2{
+		padding-top: 15px;
+		margin-left: 8%;
+	}
 }
