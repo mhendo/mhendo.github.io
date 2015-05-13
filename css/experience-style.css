@@ -193,6 +193,10 @@ article #education{
 	color: white;
 }
 
+.mobile{
+	display: none;
+}
+
 /*RESPONSIVE*/
 @media screen and (max-width: 1065px){
 	div #resume{
@@ -206,6 +210,54 @@ article #education{
 
 	div .edu-col{
 		width: 38%;
+	}
+
+	div .desktop{
+		display: none;
+	}
+
+	article .desktop{
+		display: none;
+	}
+
+	div .mobile{
+		display: block;
+		width: 100%;
+		margin: 10px;
+		border-bottom: 2px solid rgba(16, 198, 51, 0.5);
+	}
+
+	.mobile h3, h5{
+		text-align: center;
+	}
+
+	.mobile h3{
+		font-family: 'Oswald', sans-serif; font-weight: 700;
+		font-size: 20px;
+		margin-top: 0px;
+	}
+
+	.mobile h5{
+		font-family: 'Oswald', sans-serif; font-weight: 700;
+		font-size: 14px;
+	}
+
+	.mobile p{
+		font-family: 'Titillium Web', sans-serif; font-weight: 400;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-size: 16px;
+		letter-spacing: 0.3px;
+	}
+
+	.mobile li{
+		font-family: 'Oswald', sans-serif; font-weight: 400;
+		font-size: 16px;
+		letter-spacing: 0.3px;
+	}
+
+	body{
+		height: 1800px
 	}
 }
 
