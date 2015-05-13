@@ -111,10 +111,34 @@ article li{
 div #resume{
 	float: left;
 	display: inline-block;
-	height: 200px;
+	height: 300px;
 	width: 200px;
-	background-color: black;
 	margin: 20px;
+}
+
+#resume img{
+	width: 200px;
+	height: 300px;
+	opacity: 0.4;
+}
+
+#resume h2{
+	font-family: 'Titillium Web', sans-serif; font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	z-index: 10;
+	position: relative;
+	top: -240px;
+}
+
+#resume a:link{
+	text-decoration: none;
+	color: rgb(55, 16, 122);
+}
+
+#resume a:visited{
+	text-decoration: none;
+	color: rgb(55, 16, 122)
 }
 
 article #education{
