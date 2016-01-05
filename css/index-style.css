@@ -1,3 +1,306 @@
+body{
+	background-color: rgb(245,245,245);
+	width: 100%;
+	position: relative;
+}
+/*
+#wrapper{
+	max-width: 100%;
+	margin: auto;
+	background-color: rgb(230, 230, 230);
+	box-shadow: 0px 15px 15px #888888;
+}
+*/
+nav{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 2.4em;
+	font-variant: small-caps;
+	color: rgb(237, 123, 32);
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+li img{
+	height: auto;
+	width: 1.5em;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+nav li{
+	width: 10%;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a:link{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: rgb(237, 123, 32);
+	text-decoration: underline;
+}
+
+nav a li:hover{
+	text-decoration: underline;
+	color: rgba(112, 124, 60, 0.7);
+	/*-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */
+    /*text-decoration-color: rgba(55, 16, 122, 0.7);*/
+}
+
+#hero-image{
+	background-image: url(../images/morning.jpg);
+	height: 500px;
+	width: 100%;
+	background-color: rgb(10,77,109);
+	background-repeat:no-repeat;
+   	background-size: cover;
+}
+
+#hero-text{
+	z-index: 1;
+}
+
+#headline{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 200px;
+}
+
+#divider{
+	width: 425px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: white;
+	border-width: 0.1em;
+}
+
+#subheadline{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+
+div #bio{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	display: block;
+	width: 40%;
+	position: relative;
+}
+
+#bio p{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.4em;
+	display: inline-block;
+	max-width: 255px;
+	height: auto;
+	position: absolute;
+	text-align: center;
+	overflow: hidden;
+}
+
+#bio span{
+	color: rgb(237, 123, 32);
+	font-size: 1.5em;
+}
+
+#bio img{
+	height: auto;
+	max-width: 50%;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+h1{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 2.1em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-width: 0px 0px 8px 0px;
+	border-style: solid;
+	border-color: rgb(112, 124, 60);
+	background-color: rgba(10,77,109, 0.75);
+	color: white;
+	margin-top: 100px;
+}
+
+div .custom{
+	background-color: rgb(245, 245, 245);
+    width: 45%;
+    text-align: center;
+	-webkit-box-shadow: 8px 10px 24px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 8px 10px 24px -5px rgba(0,0,0,0.75);
+	box-shadow: 8px 10px 24px -5px rgba(0,0,0,0.75);
+}
+
+.custom button{
+	margin-bottom: 15px;
+	width: 35%;
+	text-align: center;
+	font-family: "source Sans Pro", "san-serif";
+	font-weight: 700;
+	font-size: 1.4em;
+	font-variant: small-caps;
+	background-color: rgb(237, 123, 32);
+	color: white;
+	border-color: rgba(237, 123, 32, 0.0);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	-moz-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+}
+
+.hp-content{
+	width: 75%;
+	height: 360px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article p{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.1em;
+	text-align: left;
+	margin-top: 30px;
+	padding: 10px 10px 10px 10px;
+}
+
+#about{
+	background-image: url(../images/midmorning.jpg);
+	background-color: rgb(10,77,109);
+	background-repeat:no-repeat;
+   	background-size: cover;
+}
+
+#experience{
+	background-image: url(../images/jesse.jpg);
+	background-color: rgb(10,77,109);
+	background-repeat:no-repeat;
+   	background-size: cover;
+}
+
+#bring-to-the-table{
+	background-image: url(../images/skills.jpg);
+	background-color: rgb(10,77,109);
+	background-repeat:no-repeat;
+   	background-size: cover;
+}
+
+footer{
+	margin-top: 50px;
+	width: 100%;
+	height: 330px;
+	position: relative;
+	bottom: 0;
+	background-image: url(../images/night1.jpg);
+	background-size: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+footer input{
+	display: block;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Lora", "serif";
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.4)
+}
+
+footer #submit{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	font-family: "source Sans Pro", "san-serif";
+	font-weight: 700;
+	font-size: 1.4em;
+	font-variant: small-caps;
+	text-align: center;
+	background-color: rgb(237, 123, 32);
+	color: white;
+	border-color: rgba(237, 123, 32, 0.0);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	-moz-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+}
+
+/*Responsive Design*/
+
+@media screen and (max-width: 1000px){
+	nav a{
+		margin-right: 20px;
+	}
+
+	#bio p{
+		width: 50%;
+		font-size: 1.6em;	
+	}
+
+	div .custom{
+		width: 100%;
+		position: relative;
+		bottom: -155px;
+		margin-bottom: 10px;
+		-webkit-box-shadow: 0px 10px 12px 0px rgba(150,150,150,0.65);
+		-moz-box-shadow: 0px 10px 12px 0px rgba(150,150,150,0.65);
+		box-shadow: 0px 10px 12px 0px rgba(150,150,150,0.65);
+	}
+
+	article{
+		margin-top: 2em;
+	}
+
+	article h1{
+		margin-bottom: 0em;
+	}
+
+	/*.custom p{
+		
+	}*/
+}
+
+/*
 .clearfix:after {
      content: ".";
      display: block;
@@ -66,8 +369,8 @@ nav a:hover{
 nav a li:hover{
 	text-decoration: underline;
 	color: rgba(55, 16, 122, 0.7);
-	-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */
-    text-decoration-color: rgba(55, 16, 122, 0.7);
+	-moz-text-decoration-color: rgba(55, 16, 122, 0.7); *//* Code for Firefox */
+    /*text-decoration-color: rgba(55, 16, 122, 0.7);
 }
 
 nav li span{
@@ -143,10 +446,11 @@ ul.favorited{
 	margin-left: 7%;
 }
 
+*/
 /*.column2{
 	margin-right: 10%;
 }*/
-
+/*
 .favorited li{
 	font-family: 'Titillium Web', sans-serif; font-weight: 400;
 	font-size: 1em;
@@ -209,14 +513,16 @@ body{
 
 html{
 	height: 100%;
+	background-image: url("../images/exposed-brick.png");
 }
 #map-canvas{
 	width: 945px;
 	height: 500px;
 	margin-left: 4%;
 }
-
+*/
 /*RESPONSIVE*/
+/*
 @media screen and (max-width: 1030px){
 	#icon-bar .map{
 		display: none;
@@ -277,3 +583,4 @@ html{
 		margin-left: 8%;
 	}
 }
+*/
