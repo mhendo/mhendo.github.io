@@ -148,8 +148,25 @@ nav a li:hover{
 /*Responsive Design*/
 
 @media screen and (max-width: 900px){
-	nav a{
-		margin-right: 20px;
+	nav{
+		font-size: 2em;
+	}
+
+	li img{
+	height: auto;
+	width: 1.7em;
+	}
+
+	nav #logo{
+		width: 15%;
+		padding: none;
+		position: static;
+	}
+
+	nav li{
+		width: 25%;
+		position: relative;
+		bottom: 25px;
 	}
 
 	#wrapper{
