@@ -88,7 +88,7 @@ nav a li:hover{
 }
 
 #divider{
-	width: 425px;
+	width: 25%;
 	margin-left: auto;
 	margin-right: auto;
 	border-style: solid;
@@ -164,7 +164,7 @@ div .custom{
 	box-shadow: 8px 10px 24px -5px rgba(0,0,0,0.75);
 }
 
-.custom button{
+article button{
 	margin-bottom: 15px;
 	width: 35%;
 	text-align: center;
@@ -179,6 +179,7 @@ div .custom{
 	-webkit-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
 	-moz-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
 	box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	z-index: 10;
 }
 
 .hp-content{
@@ -214,21 +215,21 @@ article p{
 	background-image: url(../images/midmorning.jpg);
 	background-color: rgb(10,77,109);
 	background-repeat:no-repeat;
-   	background-size: cover;
+	background-size: cover;
 }
 
 #experience{
 	background-image: url(../images/jesse.jpg);
 	background-color: rgb(10,77,109);
 	background-repeat:no-repeat;
-   	background-size: cover;
+	background-size: cover;
 }
 
 #bring-to-the-table{
 	background-image: url(../images/skills.jpg);
 	background-color: rgb(10,77,109);
 	background-repeat:no-repeat;
-   	background-size: cover;
+	background-size: cover;
 }
 
 footer{
@@ -303,35 +304,64 @@ footer #submit{
 		bottom: 25px;
 	}
 
+	#divider{
+		width: 75%;
+	}
+
+	div #bio{
+		width: 100%;
+	}
+
+	#bio img{
+		margin-right: 0px;
+	}	
+
 	#bio p{
 		width: 50%;
+		font-size: 1em;
 	}
 
 	div .custom{
 		width: 100%;
-		position: relative;
-		bottom: -155px;
+		position: absolute;
+		bottom: 0px;
 		-webkit-box-shadow: 0px 10px 12px 0px rgba(150,150,150,0.65);
 		-moz-box-shadow: 0px 10px 12px 0px rgba(150,150,150,0.65);
 		box-shadow: 0px 10px 12px 0px rgba(150,150,150,0.65);
 	}
 
+	.hp-content{
+		width: 100%;
+	}
+
 	article{
-		margin-top: 2em;
+		width: 100%;
 	}
 
 	article h1{
-		margin-bottom: 0em;
+		font-size: 1.8em;
 	}
 
-	article p{
-		font-size: 1.5em;
+	.custom p{
+		margin-bottom: 0px;
+		position: relative;
+		bottom: 15px;
 	}
 
-	/*.custom p{
-		
-	}*/
+	.custom button{
+		margin-bottom: 10px;
+	}
 }
+
+@media screen and (max-width: 715){
+	#experience{
+		background-image: url(../images/jesse.jpg);
+		background-color: rgb(10,77,109);
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-position: 100px 100px;
+	}
+}	
 
 /*
 .clearfix:after {
