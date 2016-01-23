@@ -144,3 +144,19 @@ nav a li:hover{
 	background-color: rgba(112, 124, 60, 0.3);
 	padding: 10px;
 }
+
+/*Responsive Design*/
+
+@media screen and (max-width: 900px){
+	nav a{
+		margin-right: 20px;
+	}
+
+	#wrapper{
+		width: 100%;
+	}
+	/*#categories img{
+		position: fixed;
+		bottom: 0;
+	}*/
+}
