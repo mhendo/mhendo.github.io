@@ -1,0 +1,135 @@
+body{
+	background-color: rgb(245,245,245);
+}
+/*
+#wrapper{
+	max-width: 100%;
+	margin: auto;
+	background-color: rgb(230, 230, 230);
+	box-shadow: 0px 15px 15px #888888;
+}
+*/
+nav{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 2.4em;
+	font-variant: small-caps;
+	color: rgb(237, 123, 32);
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+li img{
+	height: auto;
+	width: 1.5em;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+nav li{
+	width: 10%;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a:link{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: rgb(237, 123, 32);
+	text-decoration: underline;
+}
+
+nav a li:hover{
+	text-decoration: underline;
+	color: rgba(112, 124, 60, 0.7);
+	/*-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */
+    /*text-decoration-color: rgba(55, 16, 122, 0.7);*/
+}
+
+#wrapper{
+	width: 75%;
+	margin: auto;
+}
+
+#categories{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: block;
+	float: left;
+}
+
+#categories img{
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+#resume-content{
+	width: 100%;
+	margin: auto;
+	float: left;
+}
+
+#resume-content h3{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 2em;
+	margin: 0px;
+	display: block;
+}
+
+#resume-content h5{
+	font-family: "source Sans Pro", "san-serif";
+	font-weight: 700;
+	font-size: 1.4em;
+	margin: 0px;
+}
+
+#resume-content p{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+#resume-content li{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+#resume-content div{
+	-webkit-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
+	box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
+}
+
+#experience{
+	display: none;
+}
+
+#contact{
+	display: none;
+}
+
+/* FOR ICON INTERACTIVITY */
+#education-icon{
+	-webkit-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
+	box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
+}
