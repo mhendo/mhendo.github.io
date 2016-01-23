@@ -127,9 +127,20 @@ nav a li:hover{
 	display: none;
 }
 
-/* FOR ICON INTERACTIVITY */
-#education-icon{
-	-webkit-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
-	-moz-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
-	box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
+#education{
+	/*border: 5px solid rgba(10, 77, 109, 0.7);*/
+	background-color: rgba(10, 77, 109, 0.3);
+	padding: 10px;
+}
+
+#experience{
+	/*border: 5px solid rgba(237, 123, 32, 0.7);*/
+	background-color: rgba(237, 123, 32, 0.3);
+	padding: 10px;
+}
+
+#contact{
+	/*border: 5px solid rgba(237, 123, 32, 0.7);*/
+	background-color: rgba(112, 124, 60, 0.3);
+	padding: 10px;
 }
