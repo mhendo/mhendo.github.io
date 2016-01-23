@@ -30,13 +30,13 @@
 	<body>
 		<div id="wrapper">
 			<div id="categories">
-				<a href=""><img src="images/Graduation-Cap.jpg" alt="Michael Henderson's Education" id="education-icon"></a>
-				<a href=""><img src="images/Briefcase.jpg" alt="Michael Henderson's Work Experience"></a>
-				<a href=""><img src="images/contact.jpg" alt="Michael Henderson's Contact Information"></a>
-				<a href=""><img src="images/download.jpg" alt="Download Michael Henderson's Resume"></a>
+				<a href="#education"><img src="images/Graduation-Cap.jpg" alt="Michael Henderson's Education" id="education-icon"></a>
+				<a href="#experience"><img src="images/Briefcase.jpg" alt="Michael Henderson's Work Experience"></a>
+				<a href="#contact"><img src="images/contact.jpg" alt="Michael Henderson's Contact Information"></a>
+				<a href="#resume"><img src="images/download.jpg" alt="Download Michael Henderson's Resume"></a>
 			</div>
 				<article id="resume-content">
-					<div id="education">
+					<div id="education" class="content">
 						<h3>University of Missouri - Columbia</h3>
 							<h5>August 2008-May 2012</h5>
 							<ul>
@@ -51,7 +51,7 @@
 							</ul>
 						<p>The advantage of instructors with real-world front-end developer experience made it much easier to learn how to build websites compared to failed attempts in the past to learn online. </p>
 					</div>
-					<div id="experience">
+					<div id="experience" class="content">
 						<h3>Digital Marketing Director - SuretyBonds.com</h3>
 							<h5>October 2013-Present</h5>
 								<p>As is with any small team managing a large website and marketing material, you wear many hats. One week you're creating a new paid search campaign, the next you're helping redesign the homepage. While this working style can be hectic, you tend to learn more than in a siloed position.</p>
@@ -94,11 +94,14 @@
 									<li>Met weekly deadlines in a productive, organized way</li>
 								</ul>
 					</div>			
-					<div id="contact">			
+					<div id="contact" class="content">			
 						<!--Form-->
 						<a href=""><img src="" alt="michael henderson linkedin"></a>
 						<a href=""><img src="" alt="michael henderson twitter"></a>
 					</div>
 				</article>
-		</div>		
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/resume.js"></script>		
 	</body>
+</html>
