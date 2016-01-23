@@ -313,12 +313,12 @@ footer #submit{
 	}
 
 	#bio img{
-		margin-right: 0px;
-	}	
+		max-width: 20%;
+		margin-left: 50px;
+	}
 
 	#bio p{
-		width: 50%;
-		font-size: 1em;
+		max-width: 60%;
 	}
 
 	div .custom{
@@ -353,14 +353,19 @@ footer #submit{
 	}
 }
 
-@media screen and (max-width: 715){
-	#experience{
-		background-image: url(../images/jesse.jpg);
-		background-color: rgb(10,77,109);
-		background-repeat:no-repeat;
-		background-size: cover;
-		background-position: 100px 100px;
+@media screen and (max-width: 715px){
+	#bio img{
+		margin-right: 0px;
+		margin-left: 0px;
+		max-width: 50%;
+	}	
+
+	#bio p{
+		max-width: 50%;
+		font-size: 1em;
+		margin-right: 5px;
 	}
+
 }	
 
 /*
