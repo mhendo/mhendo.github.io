@@ -1,3 +1,185 @@
+body{
+	background-color: rgb(245,245,245);
+}
+
+nav{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 2.4em;
+	font-variant: small-caps;
+	color: rgb(237, 123, 32);
+	clear: both;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+li img{
+	height: auto;
+	width: 1.5em;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+nav li{
+	width: 10%;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a:link{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: rgb(237, 123, 32);
+	text-decoration: underline;
+}
+
+nav a li:hover{
+	text-decoration: underline;
+	color: rgba(112, 124, 60, 0.7);
+	/*-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */
+    /*text-decoration-color: rgba(55, 16, 122, 0.7);*/
+}
+
+#hero-image{
+	background-image: url(../images/skills_hero.jpg);
+	height: 500px;
+	width: 100%;
+	background-color: rgb(10,77,109);
+	background-repeat:no-repeat;
+   	background-size: cover;
+}
+
+#hero-text{
+	z-index: 1;
+	width: 75%;
+	margin: auto;
+}
+
+#headline{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 150px;
+}
+
+#subheadline{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 2em;
+	text-align: right;
+	color: white;
+	margin-top: 15px;
+}
+
+p{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.2em;
+	max-width: 75%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+
+#skill-wrapper div{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.skill img{
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.skill h3{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 3em;
+	height: auto;
+}
+
+.skill ul{
+	list-style-position: inside;
+}
+
+.skill li{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 200;
+	font-size: 1.4em;
+	display: inline-block;
+}
+
+#strategy li span{
+	color: rgb(112, 124, 60);
+}
+
+#technology li span{
+	color: rgb(10, 77, 109);
+}
+
+#creativity li span{
+	color: rgb(237, 123, 32);
+}
+
+/*Responsive Design*/
+@media screen and (max-width: 900px){
+	nav{
+		font-size: 2em;
+	}
+
+	nav #logo{
+		width: 15%;
+		padding: none;
+		position: static;
+	}
+
+	nav li{
+		width: 25%;
+		position: relative;
+		bottom: 25px;
+	}
+
+@media screen and (max-width: 900px){
+	#hero-text{
+		width: 90%;
+	}
+
+	#headline{
+		font-size: 2.2em;
+	}
+
+	#subheadline{
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (max-width: 540px){
+	#skill-wrapper div{
+	width: 100%;
+	}
+}
+/*
 .wrapper{
 	max-width: 1050px;
 	margin: auto;
@@ -58,7 +240,7 @@ nav a li:hover{
 	text-decoration: underline;
 	color: rgba(55, 16, 122, 0.7);
 	-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */
-    text-decoration-color: rgba(55, 16, 122, 0.7);
+    /*text-decoration-color: rgba(55, 16, 122, 0.7);
 }
 
 nav li span{
@@ -141,7 +323,7 @@ div .mobile{
 	display: none;
 }
 
-/*RESPONSIVE*/
+/*RESPONSIVE*/ /*
 @media screen and (max-width: 1100px){
 	div .desktop{
 		display: none;
@@ -199,4 +381,4 @@ div .mobile{
 		padding-top: 15px;
 		margin-left: 8%;
 	}
-}
+}*/
