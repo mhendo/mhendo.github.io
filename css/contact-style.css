@@ -1,4 +1,182 @@
-.wrapper{
+nav{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 2.4em;
+	font-variant: small-caps;
+	color: rgb(237, 123, 32);
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+li img{
+	height: auto;
+	width: 1.5em;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+nav li{
+	width: 10%;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a:link{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:visited{
+	color: rgb(237, 123, 32);
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: rgb(237, 123, 32);
+	text-decoration: underline;
+}
+
+nav a li:hover{
+	text-decoration: underline;
+	color: rgba(112, 124, 60, 0.7);
+}
+
+body{
+	background-color: rgb(245,245,245);
+	width: 100%;
+}
+
+#hero-image{
+	background-image: url(../images/Background.jpg);
+	height: 615px;
+	width: 100%;
+	background-color: rgb(230,230,230);
+	background-repeat:no-repeat;
+	background-size: cover;
+
+}
+
+#hero-image img{
+	margin: auto;
+	display: block;
+}
+
+#wrapper{
+	width: 80%;
+	margin: auto;
+}
+
+#welcome{
+	width: 60%;
+	float: left;
+}
+
+#welcome h1{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+#welcome p{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.4em;
+}
+
+form{
+	width: 30%;
+	float: right;
+	border: solid black 2px;
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: rgb(210, 210, 210);
+}
+
+form #contact-intro{
+	margin-top: 0px;
+}
+
+form p{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.4em;
+}
+
+form input{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1em;
+	margin-top: 3px;
+}
+
+form textarea{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.2em;
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: auto;
+}
+
+form #button{
+	text-align: center;
+	width: 100%
+}
+
+form #submit{
+	width: 50%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "source Sans Pro", "san-serif";
+	font-weight: 700;
+	font-size: 2em;
+	font-variant: small-caps;
+	text-align: center;
+	background-color: rgb(237, 123, 32);
+	color: white;
+	border-color: rgba(237, 123, 32, 0.0);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	-moz-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+}
+
+#social{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 60%;
+}
+
+#social h2{
+	font-family: 'Lora', serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+div .social{
+	width: 30%;
+	display: inline-block;
+}
+
+.social img{
+	width: 30%;
+}
+
+
+/*.wrapper{
 	max-width: 1050px;
 	margin: auto;
 	padding: 15px;
@@ -57,7 +235,7 @@ nav a:hover{
 nav a li:hover{
 	text-decoration: underline;
 	color: rgba(55, 16, 122, 0.7);
-	-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */
+	-moz-text-decoration-color: rgba(55, 16, 122, 0.7); /* Code for Firefox */ /*
     text-decoration-color: rgba(55, 16, 122, 0.7);
 }
 
@@ -141,7 +319,7 @@ a img:hover{
 	opacity: 0.6;
 }
 
-/*RESPONSIVE DESIGN*/
+/*RESPONSIVE DESIGN*/ /*
 @media screen and (max-width: 830px){
 	nav #other{
 		display: none;
@@ -188,4 +366,4 @@ a img:hover{
 		clear: both;
 		margin: 5% 0px 0px 35%;
 	}
-}
+}*/
