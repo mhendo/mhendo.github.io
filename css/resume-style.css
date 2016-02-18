@@ -1,3 +1,12 @@
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
 body{
 	background-color: rgb(245,245,245);
 }
@@ -112,11 +121,11 @@ nav a li:hover{
 	font-size: 1.1em;
 }
 
-#resume-content div{
+/*#resume-content div{
 	-webkit-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
 	-moz-box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
 	box-shadow: -3px 1px 17px 4px rgba(0,0,0,0.5);
-}
+}*/
 
 #experience{
 	display: none;
@@ -127,22 +136,102 @@ nav a li:hover{
 }
 
 #education{
-	/*border: 5px solid rgba(10, 77, 109, 0.7);*/
 	background-color: rgba(10, 77, 109, 0.3);
 	padding: 10px;
 }
 
 #experience{
-	/*border: 5px solid rgba(237, 123, 32, 0.7);*/
 	background-color: rgba(237, 123, 32, 0.3);
 	padding: 10px;
 }
 
 #contact{
-	/*border: 5px solid rgba(237, 123, 32, 0.7);*/
 	background-color: rgba(112, 124, 60, 0.3);
 	padding: 10px;
 }
+
+#contact #social_icons{
+	text-align: center;
+	float: left;
+	width: 40%;
+}
+
+#social_icons img{
+	width: 33%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+#social_icons h3{
+	margin-bottom: 10px;
+}
+
+div #form{
+	width: 50%;
+	float: right;
+}
+
+#contact form{
+	border: solid black 2px;
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: rgb(210, 210, 210);
+}
+
+form #contact-intro{
+	margin-top: 0px;
+}
+
+form p{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.4em;
+}
+
+form input{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1em;
+	margin-top: 3px;
+}
+
+form textarea{
+	font-family: 'Source Sans Pro', "san-serif";
+	font-weight: 400;
+	font-size: 1.2em;
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: auto;
+}
+
+form #button{
+	text-align: center;
+	width: 100%
+}
+
+form #submit{
+	width: 50%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "source Sans Pro", "san-serif";
+	font-weight: 700;
+	font-size: 2em;
+	font-variant: small-caps;
+	text-align: center;
+	background-color: rgb(237, 123, 32);
+	color: white;
+	border-color: rgba(237, 123, 32, 0.0);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	-moz-box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+	box-shadow: 0px 6px 0px -0.5px rgba(214,107,30,1);
+}
+
 
 /*Responsive Design*/
 
@@ -175,4 +264,30 @@ nav a li:hover{
 		position: fixed;
 		bottom: 0;
 	}*/
+}
+
+@media screen and (max-width: 700px){
+	#contact #social_icons{
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#social_icons img{
+		width: 25%;
+		height: auto;
+		display: inline-block;
+		margin: auto;
+	}
+
+	div #form{
+		margin: auto;
+		width: 100%;
+	}
+
+	form{
+		width: 80%;
+		margin: auto;
+	}
 }
