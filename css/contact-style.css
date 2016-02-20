@@ -53,19 +53,20 @@ body{
 	width: 100%;
 }
 
-#hero-image{
-	background-image: url(../images/Background.jpg);
-	height: 615px;
+div #hero-image{
+	margin: auto;
+	text-align: center;
 	width: 100%;
-	background-color: rgb(230,230,230);
-	background-repeat:no-repeat;
-	background-size: cover;
-
 }
 
-#hero-image img{
-	margin: auto;
-	display: block;
+#hero-image{
+	background-image: url(../images/Background_Collage.jpg);
+	height: 800px;
+	max-width: 100%;
+	background-color: rgb(20,16,10);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #wrapper{
@@ -172,9 +173,84 @@ div .social{
 }
 
 .social img{
-	width: 30%;
+	width: 50%;
 }
 
+/*Responsive Design*/
+
+@media screen and (max-width: 1000px){
+	nav{
+		font-size: 2em;
+	}
+
+	li img{
+	height: auto;
+	width: 1.7em;
+	}
+
+	nav #logo{
+		width: 15%;
+		padding: none;
+		position: static;
+	}
+
+	nav li{
+		width: 25%;
+		position: relative;
+		bottom: 25px;
+	}
+
+	#hero-image{
+		background-image: url(../images/Background_Collage.jpg);
+		height: 600px;
+		max-width: 100%;
+		background-color: rgb(20,16,10);
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#welcome{
+		width: 80%;
+		float: none;
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+
+	form{
+		width: 80%;
+		float: none;
+		border: solid black 2px;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		padding: 20px;
+		border-radius: 5px;
+		background-color: rgb(210, 210, 210);
+	}
+
+	#social{
+		display: block;
+		float: none;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#hero-image{
+		background-image: url(../images/Background_Collage_mobile.jpg);
+		height: 600px;
+		max-width: 100%;
+		background-color: rgb(20,16,10);
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+}
 
 /*.wrapper{
 	max-width: 1050px;
